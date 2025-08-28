@@ -3,8 +3,6 @@
 ## Summary
 I developed a personal website as part of a module at Queen Mary University of London, showcasing both front-end and back-end development skills. The front end was built with HTML, CSS, and JavaScript, while the back end used PHP with a MySQL database to power a fully functional blog, login system, and admin system. Users can register, log in, and create blog posts, with all data securely stored, while the admin system provides management features. The site also highlights my achievements, education, and projects, serving as a portfolio to present my skills and experiences.
 
-**This portfolio website works but contains bugs and will no longer be maintained!**
-
 ## Features
 - Front end built with **HTML, CSS, and JavaScript**.
 - Back end developed using **PHP and MySQL on XAMPP**.
@@ -12,6 +10,8 @@ I developed a personal website as part of a module at Queen Mary University of L
 - Fully functional blog where users can **create, edit, and view posts**.
 - Admin system for managing users and content **(such as deleting posts and comments)**.
 - Portfolio sections showcasing **achievements, education, and projects**.
+
+**This portfolio website works but contains bugs and will no longer be maintained!**
 
 ## Watch the video!
 
