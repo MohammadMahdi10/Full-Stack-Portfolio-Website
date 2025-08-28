@@ -16,4 +16,4 @@ I developed a personal website as part of a module at Queen Mary University of L
 ## How to run for yourself
 1. Install XAMPP
 - Download and install XAMPP from https://www.apachefriends.org/download.html
-- Open the XAMPP Control Panel and start [Apache] and MySQL.
+- Open the XAMPP Control Panel and start `Apache` and MySQL.
