@@ -1,0 +1,238 @@
+/* All Styles */
+body 
+{
+    font-family: "merriweather", "Playfair Display";
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+section 
+{
+    background-color: white;
+    padding: 1.5rem;
+}
+
+/* Header and Navigation */
+header 
+{
+    background-color: #272e3f;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul 
+{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+nav a 
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover 
+{
+    text-decoration: underline;
+}
+
+/* Main Container */
+.container 
+{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 80rem;
+    margin: auto;
+}
+
+/* About Section */
+#about 
+{
+    grid-column: span 2;
+    max-width: 100%;
+    margin: 0.5rem auto;
+}
+
+#about h1
+{
+    font-size: 2rem;
+}
+
+#about hr 
+{
+    width: 15rem;;
+    margin: 0.5rem 0;
+}
+
+#alignAbout p
+{
+    margin-top: 2rem;
+}
+
+#alignAbout
+{
+    margin-left: 22rem;
+}
+
+#about img 
+{
+    position: relative;
+    bottom: 8rem;
+    width: 100%;
+    max-width: 20rem;
+    border-radius: 50%;
+}
+
+/* Experience Section */
+#experience 
+{
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2;
+    max-width: 100%;
+    margin: 0.5rem auto;
+}
+
+#experience hr 
+{
+    width: 15rem;;
+    margin: 0.5rem 0;
+    margin-bottom: 2rem;
+}
+
+#experience h1
+{
+    font-size: 2rem;
+}
+
+.experienceContainer 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.experienceBox 
+{
+    width: 100%;
+    padding: 1rem;
+    border-left: 0.3rem solid #333;
+}
+
+.experienceBox strong 
+{
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.experienceBox p 
+{
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+#experience p
+{
+    max-width: 48ch;
+}
+
+#smallText
+{
+    font-style: italic;
+    position: relative;
+    bottom: 7rem;
+    left: 2.2rem;
+    max-width: 14rem;
+    text-align: center;
+}
+
+/* Skills Section */
+#skills
+{
+    grid-column: span 2;
+    max-width: 100%;
+    margin: 0.5rem auto;
+}
+
+#skills hr 
+{
+    width: 25rem;;
+    margin: 0.5rem 0;
+    margin-bottom: 2rem;
+}
+
+#skills h1
+{
+    font-size: 2rem;
+}
+
+#skills ul 
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem; 
+}
+
+/* Education and Contact Section */
+#education hr 
+{
+    width: 15rem;;
+    margin: 0.5rem 0;
+    margin-bottom: 2rem;
+}
+
+#contact hr 
+{
+    width: 15rem;;
+    margin: 0.5rem 0;
+    margin-bottom: 2rem;
+}
+
+#contact img
+{
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+#contact a
+{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 0.5rem;
+}
+
+#contact #email
+{
+    position: relative;
+    bottom: 0.5rem;
+}
+
+#education, #contact
+{
+    background-color: #272e3f;
+    color: white;
+    max-width: 100%;
+}
+
+/* Footer Section */
+footer 
+{
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #272e3f;
+    color: white;
+    margin-top: 0.5rem;
+}
+

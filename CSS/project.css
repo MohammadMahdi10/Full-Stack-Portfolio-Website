@@ -1,0 +1,136 @@
+/* All Styles */
+body 
+{
+    font-family: "merriweather", "Playfair Display";
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header and Navigation */
+header 
+{
+    background-color: #272e3f;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul 
+{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+nav a 
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover 
+{
+    text-decoration: underline;
+}
+
+#contact
+{
+    position: relative;
+    right: 1.8rem;
+}
+
+/* Main Container */
+.container 
+{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 80rem;
+    margin: auto;
+}
+
+/* Projects Section */
+#allProjects
+{
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2;
+    max-width: 100%;
+    margin: 0.5rem auto;
+    background-color: white;
+    padding: 2rem;
+}
+
+#allProjects hr 
+{
+    width: 15rem;;
+    margin: 0.5rem 0;
+}
+
+#allProjects h1
+{
+    font-size: 2rem;
+}
+
+#allProjects p
+{
+    margin-bottom: 1.2rem;
+}
+
+.projectContainer
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.projectBox 
+{
+    width: 100%;
+    padding: 1rem;
+    border-left: 0.3rem solid #333;
+}
+
+.projectBox strong 
+{
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.projectBox p 
+{
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+#allProjects p
+{
+    max-width: 60ch;
+}
+
+.projectBox .projectHeader
+{
+    font-size: 1.5rem;
+}
+
+.smallHeaders
+{
+    margin-top: 1rem;
+}
+
+/* Footer Section */
+footer 
+{
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #272e3f;
+    color: white;
+    margin-top: 0.5rem;
+}

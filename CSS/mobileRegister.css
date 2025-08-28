@@ -1,0 +1,125 @@
+/* All Styles */
+body 
+{
+    font-family: "Merriweather", "Playfair Display";
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+header 
+{
+    background-color: #272e3f;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation */
+nav ul 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a 
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Container */
+.container 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* Register Form Section */
+#registerForm 
+{
+    background-color: white;
+    width: 100%;
+    max-width: 22rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+#registerForm form 
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#registerForm legend 
+{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Form Fields */
+fieldset 
+{
+    border: none;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+label
+{
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    padding-left: 0.2rem;
+}
+
+input[type="email"],
+input[type="password"]
+{
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+/* Submit Button */
+button
+{
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: navy;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+button:hover
+{
+    background-color: #004080;
+}
+
+/* Footer Section */
+footer
+{
+    text-align: center;
+    padding: 1rem;
+    background-color: #272e3f;
+    color: white;
+    margin-top: 2rem;
+}

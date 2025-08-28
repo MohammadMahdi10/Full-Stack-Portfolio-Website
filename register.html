@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/register.css?v=2">
+    <link rel="stylesheet" href="CSS/mobileRegister.css" media="screen and (max-width: 768px)">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="JavaScript/registerPrevent.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.php#about">About Me</a></li>
+                <li><a href="index.php#experience">Experience</a></li>
+                <li><a href="index.php#skills">Skills</a></li>
+                <li><a href="index.php#education">Education</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="viewBlog.php">Blog</a></li>
+                <li><a href="index.php#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="registerForm">
+            <form action="register.php" method="POST">
+                <legend>Register</legend>
+                
+                <div id="group">
+                    <fieldset>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password">
+                        <p id="errorText"></p>
+                    </fieldset>
+                </div>
+                
+                <button type="submit" id="registerButton">Register</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Mohammad Sabur Ali Mahdi</p>
+    </footer>
+</body>
+</html>
+

@@ -1,0 +1,95 @@
+/* All Styles */
+body 
+{
+    font-family: "Merriweather", "Playfair Display";
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header and Navigation */
+header 
+{
+    background-color: #272e3f;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a 
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Container */
+.container 
+{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#choose 
+{
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: white;
+    width: 100%;
+    max-width: 20rem;
+    text-align: center;
+}
+
+/* Login/Register Buttons */
+.container a 
+{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    padding: 0.8rem;
+    background-color: inherit;
+    color: white;
+    border-radius: 0.5rem;
+    position: relative;
+    right: 0.9rem;
+}
+
+.container a:hover 
+{
+    background-color: #004080;
+}
+
+button 
+{
+    font-family: "Merriweather", "Playfair Display", serif;
+    font-size: 1rem;
+    background: none;
+    border: none;
+    padding: 1rem;
+}
+
+/* Footer Section */
+footer 
+{
+    text-align: center;
+    padding: 1rem;
+    background-color: #272e3f;
+    color: white;
+    margin-top: 2rem;
+    position: relative;
+}

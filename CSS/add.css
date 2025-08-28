@@ -1,0 +1,271 @@
+/* All Styles */
+body 
+{
+    background-color: #f4f4f4;
+    font-family: "merriweather", "Playfair Display";
+}
+
+/* Header and Navigation */
+header 
+{
+    background-color: #272e3f;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul 
+{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+nav a 
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover 
+{
+    text-decoration: underline;
+}
+
+/* Title and Blog Section */
+.blogContainer 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#newPost
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 30rem;
+}
+
+#newPost legend 
+{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#group
+{
+    position: relative;
+    right: 1.6rem;
+}
+
+h2 {
+    position: relative;
+    right: 6rem;
+    bottom: 1rem;
+}
+
+fieldset 
+{
+    position: relative;
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+label 
+{
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.charCounter 
+{
+    font-size: 0.9em;
+    color: #666;
+    text-align: right;
+    margin-top: 0.5rem;
+}
+
+#postTitle, #postContent 
+{
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1em;
+}
+
+.blogPost 
+{
+    margin-bottom: 0.5rem;
+    border: 0.1rem solid #ccc;
+    width: 100%;
+    max-width: 60rem;
+    word-wrap: break-word;
+    padding: 0.4rem;
+}
+
+.blogPost h3 
+{
+    margin: 0.5rem 0;
+    font-size: 1.4em;
+}
+
+.blogPost p 
+{
+    margin: 0.5rem 0;
+}
+
+.row 
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.row .author 
+{
+    font-weight: bold;
+    margin-right: 5rem;
+}
+
+
+#postHeading 
+{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin-bottom: 0.5rem;
+}
+
+#dropDown 
+{
+    position: relative;
+    left: 7rem;
+    bottom: 0.8rem;
+}
+
+#deleteCommentForm 
+{
+    display: inline;
+}
+
+#addCommentForm 
+{
+    margin-top: 0.2rem;
+}
+
+#comment 
+{
+    width: 90%; 
+    height: 2.8rem; 
+    font-size: 1rem; 
+    padding: 0.6rem 0.8rem; 
+    margin-bottom: 0.8rem; 
+    resize: none; 
+    overflow: hidden; 
+    border-radius: 0.5rem;
+}
+
+/* Button Section */
+input[type="text"],
+textarea 
+{
+    width: 100%;
+    padding: 0.8rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.buttonContainer 
+{
+    display: flex;
+    flex-direction: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+button 
+{
+    background-color: navy;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+button:hover 
+{
+    background-color: #004080;
+}
+
+button[type="reset"] 
+{
+    background-color: #dc3545;
+}
+
+button[type="reset"]:hover 
+{
+    background-color: #a71d2a;
+}
+
+#deleteButton 
+{
+    color: red; 
+    margin-bottom: 0.5rem;
+}
+
+#deleteCommentButton 
+{
+    color: red; 
+    font-size: 0.8rem;
+}
+
+#addCommentButton 
+{
+    padding: 0.6rem 0.8rem; 
+    font-size: 1rem;
+}
+
+#createAccountButton 
+{
+    background-color: navy;
+    color: white; 
+    padding: 0.7rem 0.4rem; 
+    text-decoration: none; 
+    border-radius: 0.4rem; 
+    display: inline-block;
+}
+
+
+#createAccountButton:hover 
+{
+    background-color: #004080;
+}
+
+
+/* Footer Section */
+footer 
+{
+    text-align: center;
+    padding: 0.5rem;
+    background: #272e3f;
+    color: white;
+    margin-top: 0.5rem;
+    position: relative;
+    top: 8.9rem;
+}

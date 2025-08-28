@@ -1,0 +1,87 @@
+/* All Styles */
+body 
+{
+    background-color: #f4f4f4;
+    font-family: "merriweather", "Playfair Display";
+}
+
+/* Header and Navigation */
+header 
+{
+    background-color: #272e3f;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul 
+{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+nav a 
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover 
+{
+    text-decoration: underline;
+}
+
+#contact
+{
+    position: relative;
+    right: 1.8rem;
+}
+
+/* Main Container */
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* Add Post Link */
+.container a
+{
+    text-decoration: none;
+    width: 100%;
+    color: black;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.container a:hover 
+{
+    background-color: #004080;
+}
+
+#addPost
+{
+    margin-top: 5rem;
+    padding: 2rem;
+    background-color: white;
+    width: 100%;
+    max-width: 10rem;
+    text-align: center;
+}
+
+/* Footer Section */
+footer 
+{
+    position: relative;
+    top: 34.8rem;
+    text-align: center;
+    padding: 0.5rem;
+    background: #272e3f;
+    color: white;
+    margin-top: 0.5rem;
+}

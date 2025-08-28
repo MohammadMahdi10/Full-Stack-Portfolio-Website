@@ -1,0 +1,116 @@
+/* All Styles */
+body 
+{
+    font-family: "Merriweather", "Playfair Display";
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation */
+nav ul 
+{
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Title and Blog Section */
+.blogContainer 
+{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#newPost 
+{
+    width: 100%;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#postHeading 
+{
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#dropDown 
+{
+    position: static;
+    text-align: center;
+}
+
+h2 
+{
+    position: static;
+    text-align: center;
+}
+
+.blogPost 
+{
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.row 
+{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+#comment 
+{
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+/* Button Section */
+#addCommentButton 
+{
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+}
+
+#deleteCommentButton 
+{
+    font-size: 0.8rem;
+}
+
+#createAccountButton 
+{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.buttonContainer 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+/* Footer Section */
+footer 
+{
+    position: static;
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
