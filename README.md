@@ -14,6 +14,7 @@ I developed a personal website as part of a module at Queen Mary University of L
 **This portfolio website works but contains bugs and will no longer be maintained!**
 
 ## Watch the video!
+Watch the video - https://youtu.be/WEIp9WuFg2s
 
 ## How to run for yourself
 1. **Install XAMPP**
