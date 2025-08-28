@@ -34,4 +34,4 @@ I developed a personal website as part of a module at Queen Mary University of L
     - In your browser, go to http://localhost/folder-name/ (ensure to include all file paths to the project folder)
     - You should now see the homepage and view my website!
   
-## This portfolio website works but contains bugs and will no longer be maintained!
+**This portfolio website works but contains bugs and will no longer be maintained!**
